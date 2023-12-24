@@ -1,0 +1,15 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,250px);
+    gap: 10px;
+}
+.table{
+    display: grid;
+    grid-template-rows: repeat(auto-fill,40px);
+   
+    .table__head{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        font-weight: bolder;
+    }
+}
